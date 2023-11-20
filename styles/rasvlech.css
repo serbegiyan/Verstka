@@ -1,0 +1,56 @@
+main {
+    width: 98vw;    
+}
+#rasvlech {
+    background-color: aquamarine; 
+}
+h2 {
+    text-align: center;
+}
+.nav1 {
+    display: inline-block;
+    border: 1px solid blueviolet;
+    background-color: aqua;
+    width: auto;
+    height: auto;
+
+}
+.clearfix {
+    clear: both;
+}
+.hide {
+    display: none;
+}
+.nav1:hover .hide{
+    display: block;
+}
+td {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+#bir_field {
+    margin: auto;
+}
+.bird {
+    background-image: url(../images/ship.jpg);
+    background-size: contain;
+}
+#info {
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#birdy {
+    text-align: center;
+}
+.active {
+    background-color: aquamarine;
+}
+.passive {
+    background-color: red;
+}
+body {
+    margin: 0;
+    padding: 0;
+}

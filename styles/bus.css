@@ -1,0 +1,67 @@
+h2 {
+    text-align: center;
+}
+
+main p {
+        margin-left: 2vw;
+        margin-right: 1vw;
+    }
+
+main {
+    width: 98vw;
+}
+.one, .two{
+    border: 4px ridge blueviolet;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (min-width: 1200px){
+    .one {
+        float: left;        
+        margin-right: 20px;
+        width: 500px;
+    }
+    .two {
+        float: right;        
+        margin-left: 20px;
+        width: 500px;
+    }
+    figcaption {
+        width: 500px;    
+    }
+    .bus {
+        width: 500px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    figure {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .one, .two{        
+        width: 500px;
+    }
+    figcaption {
+        width: 500px;    
+    }
+    .bus {
+        width: 500px;
+    }
+} 
+@media (max-width: 991px) {
+    figure {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .one, .two{        
+        width: 300px;
+    }
+    figcaption {
+        width: 300px;    
+    }
+    .bus {
+        width: 300px;
+    }
+}

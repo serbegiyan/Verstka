@@ -1,0 +1,103 @@
+#tovar {
+    background-color: aquamarine; 
+}
+main {
+    margin-top: 1vh;
+    width: 98vw; 
+    margin-bottom: 30px;   
+}
+h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+@media (min-width: 1200px) {
+        #parent {
+        display: inline-block;
+        width: 700px;
+        height: 550px;
+        border: 5px ridge blueviolet;
+        border-radius: 10px;
+        margin: 0;
+    }
+    #parent figcaption {
+        margin-top: -5px;
+        height: 50px;
+        text-align: center;
+        font-size: 1.2rem;
+        background-color: rgba(137, 43, 226, 0.859);
+        line-height: 50px;
+    }
+    #parent img {
+        size: 100%;
+    }
+    .icon img{
+        width: 100px;
+        cursor: pointer;    
+    }
+    .icon img:hover{
+        scale: 1.5;
+        transition-duration: 1.5s;
+    }
+    #galery {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: fit-content;
+    }
+    .icon figcaption {
+        display: none;
+    }
+    .icon {
+        display: inline;    
+    }
+    .visible {
+        display: block;
+    }
+    .active {
+        outline: 2px solid greenyellow;
+    }
+    #prev, #next {       
+        display: inline-block;
+        margin-bottom: 20%; 
+        cursor: pointer;       
+    }
+    #show{
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+    #prev{
+        border: 50px solid transparent; 
+        border-right: 50px solid blueviolet;
+    }
+    #next{
+        border: 50px solid transparent; 
+        border-left: 50px solid blueviolet;
+    }
+
+}
+@media (max-width: 1199px) {
+    #show {
+        display: none;
+    }
+    #galery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 30vw));
+        justify-content: center;
+        gap: 10px;
+    }
+    .icon img {
+        object-fit: contain;        
+        width: 100%;
+    }
+    .icon {
+        border: 4px ridge blueviolet;
+        border-radius: 5px;
+        text-align: center;
+        background-color: rgba(137, 43, 226, 0.718);
+        margin: 0;
+    }
+
+
+}

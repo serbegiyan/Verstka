@@ -1,0 +1,51 @@
+#uslugi {
+    background-color: aquamarine; 
+}
+main {
+    margin-top: 5vh;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 25vw));
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.anons{
+    border: 4px ridge blueviolet;    
+    border-radius: 10px;   
+    position: relative;  
+    overflow: hidden; 
+    height: 500px;     
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+main p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+main a {
+    display: block;
+    color: black;    
+}
+@media (min-width: 1200px) {
+    .starbus {
+        width: calc(25vw - 8px);  
+        position: absolute;  
+        bottom: 50px;
+        }
+}
+@media (max-width: 1199px) {
+    .starbus{
+        width: 300px;
+        position: absolute;  
+        bottom: 20px;
+    }
+    .anons{
+        height: 450px;
+    }
+}

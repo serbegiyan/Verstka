@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="../fav.ico">
+    <meta charset="UTF-8">
+    <meta description="Контакты с нашей организацией">
+    <meta keywords="space, contacts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <div id="content">
+        <nav>
+            <ul class="none desctop">
+                <a href="../index.html"><li id="general">Главная</li></a>
+                <a href="uslugi.html"><li id="uslugi">Услуги</li></a>   
+                <a href="tovar.html"><li id="tovar" >Товары</li></a>              
+                <a href="rasvlech.html"><li id="razvlech">Развлечения</li></a>
+                <a href="#"><li id="kontakt">Контакты</li></a>
+            </ul>
+        </nav>
+        <header>  
+            <div id="menuHide">                
+            </div>      
+            <h1>Белорусская ассоциация <span class="headSpan">космоса</span></h1>
+            <img class="headImg" src="../images/cosmonaftS.png">
+        </header>        
+        <main>  
+            <h2>Контакты</h2> 
+            <div id="contein"> 
+                <div id="contTelMap">                      
+                    <p>Телефон: <a href="tel:+375XXXXXXXXX">+375ХХ-ХХХ-ХХ-ХХ</a></p>
+                    <p>Электронная почта: <a href="mailto:xxxxx@gmail.com">xxxxx@gmail.com</a></p>
+                    <p>Наш адрес: <address>г. Минск, ул. Козлова, д. 28</address></p>
+                    <iframe id="mapFr" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1397.7071305854429!2d27.596300187176148!3d53.90235649294627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfb346bb42fd%3A0x5393b63b3c1ff20a!2sBSUIR%20Building%20No.%207!5e0!3m2!1sen!2sby!4v1697543186287!5m2!1sen!2sby" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+                </div>
+                <fieldset id="comment">
+                    <legend>Обратная связь</legend>            
+                <form>
+                    <select >
+                        <option selected disabled hidden>Выбирите город</option>
+                        <option value="1">Минск</option>
+                        <option value="2">Брест</option>
+                        <option value="3">Витебск</option>
+                        <option value="4">Гомель</option>
+                        <option value="5">Гродно</option>                   
+                        <option value="6">Могилев</option>                    
+                    </select>
+                    <input placeholder="Введите название города" id="city">
+                    <input placeholder="Введите ваш email" id="meil">
+                    <textarea placeholder="Ваш комментарий" id="note"></textarea>
+                    <button>Отправить</button>
+                </form>
+                </fieldset>
+            </div>
+        </main>      
+        <footer>            
+            <div class="foot">Телефон: <a href="tel:+375XXXXXXXXX">+375ХХ-ХХХ-ХХ-ХХ</a></div>
+            <div class="foot">Электронная почта: <a href="mailto:xxx@gmail.com">xxx@gmail.com</a></div>
+            <div class="foot">Разработчик: &copy; Sergey Begiyan</div>  
+            <div class="foot"><a class="map" href="map.html">Карта сайта</a></div>
+        </footer>
+    </div>
+    <script src="../scripts/contact.js"></script>
+    <script src="../scripts/menu.js"></script>
+</body>
+</html>
